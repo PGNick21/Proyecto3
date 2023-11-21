@@ -6,7 +6,7 @@
 
     .inputEmail{
         @apply 
-        w-48 py-4 rounded-full px-7 border-secondary-100 focus:outline-none border-[1px] desktop:pr-[90px]
+        w-48 py-2.5 rounded-full px-7 border-secondary-100 focus:outline-none border-[1px] desktop:pr-[90px]
     }
 
     .btn {

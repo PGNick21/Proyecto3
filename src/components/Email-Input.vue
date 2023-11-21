@@ -19,8 +19,10 @@
   <div class="desktop:flex desktop:flex-col">
    <input v-model="email" type="text" placeholder="Your email address..." class="inputEmail" :class="{valid : isValidEmail == true , invalid : isValidEmail == false }">
    <p class="error" v-if="email != '' && !isValidEmail">Please provide a valid email address</p> 
-   </div>
-
-   <button @click="register" class="btn">Notify Me</button>
   </div>
-</template>
+  
+  <div>
+    <button @click="register" class="btn">Notify Me</button>
+  </div>
+</div>
+</template> 

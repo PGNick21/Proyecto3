@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+@layer components{
+
+    .inputEmail{
+        @apply 
+        w-48 py-4 rounded-full px-7 border-secondary-100 focus:outline-none border-[1px] desktop:pr-[90px]
+    }
+
+    .btn {
+        @apply w-60 rounded-full py-2.5 mt-3 bg-primary-100 border-transparent shadow-md text-white desktop:w-36 desktop:ml-3 desktop:mt-0
+    }
+
+    .error{
+        @apply  text-[11px] mt-[5px] mb-4 font-Franklin text-secondary-200 desktop:text-sm;
+    }
+
+    .valid{
+        border-color: green;
+    }
+
+    .invalid{
+        border-color: red;
+    }
+}
